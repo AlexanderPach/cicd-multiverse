@@ -3,7 +3,7 @@ FROM node
 
 ENV NODE_ENV=production
 
-WORKDIR /app
+WORKDIR /app/cicd-app
 
 COPY . /app
 
